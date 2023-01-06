@@ -1,0 +1,48 @@
+body {
+   background-color: rgb(42, 42, 55);
+}
+
+header {
+   text-align: center;
+}
+
+.options-column {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   padding: 20px;
+}
+
+.mood-column {
+   text-align: center;
+   justify-items: center;
+}
+
+.mood-buttons-list {
+   display: flex;
+   flex-direction: column;
+}
+
+.mood-buttons {
+   height: 50px;
+   width: 200px;
+   font-size: 16px;
+   margin: 20px;
+}
+
+.time-column {
+   text-align: center;
+   justify-items: center;
+}
+
+.time-buttons-list {
+   display: flex;
+   flex-direction: column;
+}
+
+.time-buttons {
+   height: 50px;
+   width: 200px;
+   font-size: 16px;
+   margin: 20px;
+}
