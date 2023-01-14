@@ -1,6 +1,6 @@
-body {
+/* body {
    background-color: rgb(42, 42, 55);
-}
+} */
 
 header {
    text-align: center;
@@ -47,4 +47,98 @@ header {
    margin: 20px;
 }
 
-/* comment */
+/* CSS Background Styles */
+
+.happy-excited-morning {
+   background: linear-gradient(270deg, #f8e4d3, #f5ebad, #f4f7d1);
+   background-size: 1000% 100%;
+   animation: AnimationName 30s ease infinite;
+}
+@keyframes AnimationName {
+   0%{background-position:0% 91%}
+   50%{background-position:100% 10%}
+   100%{background-position:0% 91%}
+}
+
+.sad-longing-morning {
+   background: linear-gradient(270deg, #f6fdff, #cee6ff, #a6c5d7, #cee5ff, #f6fdff);
+   background-size: 1000% 1000%;
+   animation: AnimationName 38s ease infinite;
+}
+@keyframes AnimationName {
+   0%{background-position:38% 0%}
+   50%{background-position:63% 100%}
+   100%{background-position:38% 0%}
+}
+
+
+.calm-contemplative-morning {
+      background: linear-gradient(270deg, #d7c9f7, #c3abe4, #b295da, #c6b4fa, #eae3fe);
+      background-size: 1000% 1000%;
+      animation: AnimationName 45s ease infinite;
+  }
+  @keyframes AnimationName {
+      0%{background-position:84% 0%}
+      50%{background-position:17% 100%}
+      100%{background-position:84% 0%}
+  }
+
+
+.happy-excited-afternoon {
+   background: linear-gradient(270deg, #edb88d, #f0c385, #fffd86);
+   background-size: 1000% 1000%;
+   animation: AnimationName 45s ease infinite;
+}
+
+
+.sad-longing-afternoon {
+   background: linear-gradient(270deg,  #a0ccfc, #2978cd, #a2cff7);
+   background-size: 1000% 1000%;
+   animation: AnimationName 45s ease infinite;
+}
+@keyframes AnimationName {
+   0%{background-position:18% 0%}
+   50%{background-position:83% 100%}
+   100%{background-position:18% 0%}
+}
+
+
+.calm-contemplative-afternoon {
+   background: linear-gradient(270deg, #cb9ef0, #7859b7, #5b3c88, #9670ea, #b49cf7);
+   background-size: 1000% 1000%;
+   animation: AnimationName 45s ease infinite;
+}
+@keyframes AnimationName {
+   0%{background-position:84% 0%}
+   50%{background-position:17% 100%}
+   100%{background-position:84% 0%}
+}
+
+.happy-excited-night {
+   background: linear-gradient(270deg, #983402, #c46500, #ffc13b);
+   background-size: 1000% 100%;
+   animation: AnimationName 45s ease infinite;
+}
+
+.sad-longing-night {
+   background: linear-gradient(270deg,#17202f, #1c3552, #2a405c);
+   background-size: 1000% 1000%;
+   animation: AnimationName 45s ease infinite;
+}
+@keyframes AnimationName {
+   0%{background-position:38% 0%}
+   50%{background-position:63% 100%}
+   100%{background-position:38% 0%}
+}
+
+
+.calm-contemplative-night {
+      background: linear-gradient(270deg, #160c30, #27183c, #2a243b);
+      background-size: 1000% 1000%;
+      animation: AnimationName 45s ease infinite;
+  }
+  @keyframes AnimationName {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
