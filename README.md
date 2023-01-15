@@ -9,9 +9,9 @@ The aural element utilizes individually-selected <a href="https://en.wikipedia.o
 **<h2>_Ragas_ selected:</h2>**
 
 **<h3>Morning</h3>**
-**Happy or Excited**: <a href="https://www.youtube.com/watch?v=7oQj5Qh5ScU">_Raga Desh_</a> Sitar: Shahid Parvez, Tabla: Vijay Ghate (_Morning Ragas - Volume 4_, 1990)<br>
+**Happy or Excited**: <a href="https://www.youtube.com/watch?v=7oQj5Qh5ScU">_Raga Desh_</a> - Sitar: Shahid Parvez, Tabla: Vijay Ghate (_Morning Ragas - Volume 4_, 1990)<br>
 **Sad or Longing**: <a href="https://www.youtube.com/watch?v=IfA7ZeIZv78">_Raga Todi_</a> - Bansuri: Hariprasad Chaurasia, Tabla: Anindo Chatterjee (_Morning Ragas - Volume 3_, 1992)<br>
-**Calm or Contemplative**: <a href ="https://www.youtube.com/watch?v=toBbAcTzGPM">_Raga Bhairav_</a> Ravi Shankar (_A Morning Raga/An Evening Raga_, 1968)</a>
+**Calm or Contemplative**: <a href ="https://www.youtube.com/watch?v=toBbAcTzGPM">_Raga Bhairav_</a> - Ravi Shankar (_A Morning Raga/An Evening Raga_, 1968)</a>
 
 **<h3>Afternoon</h3>**
 **Happy or Excited**: <a href="https://www.youtube.com/watch?v=tW6RWP54Tsg">_Raga Dhani_</a> - Santoor: Satish Vyas Tabla: Vijay Ghate (_The Best of Santoor_, 2004)<br>
