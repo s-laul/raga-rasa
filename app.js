@@ -1,4 +1,5 @@
-const pageBackground = document.querySelector("body")
+const pageBackground = document.querySelector("html")
+const vidPlayer = document.getElementById("player")
 
 // Mood buttons
 const moodButtons = document.querySelectorAll(".mood-buttons")
@@ -6,7 +7,7 @@ const happyExcitedButton = document.querySelector("#happy-excited")
 const sadLongingButton = document.querySelector("#sad-longing")
 const calmContemplativeButton = document.querySelector("#calm-contemplative")
 
-// Time bßuttons
+// Time buttons
 const morningButton = document.querySelector("#morning")
 const afternoonButton = document.querySelector("#afternoon")
 const nightButton = document.querySelector("#night")
@@ -43,13 +44,15 @@ const happyExcitedBackground = () => {
    happyExcitedButton.addEventListener("click", () => {
       morningButton.addEventListener("click", () => {
          pageBackground.classList.add("happy-excited-morning")
+         vidPlayer.nightButton.onclick = playVideo("7oQj5Qh5ScU")
       })
       afternoonButton.addEventListener("click", () => {
          pageBackground.classList.add("happy-excited-afternoon")
+         vidPlayer.nightButton.onclick = playVideo("tW6RWP54Tsg")
       })
       nightButton.addEventListener("click", () => {
          pageBackground.classList.add("happy-excited-night")
-         // playVideo("H4vQqQ__5SI")
+         vidPlayer.nightButton.onclick = playVideo("I4LP3ziNTlU")
       })
    })
 }
@@ -59,13 +62,15 @@ const sadLongingBackground = () => {
    sadLongingButton.addEventListener("click", () => {
       morningButton.addEventListener("click", () => {
          pageBackground.classList.add("sad-longing-morning")
+         vidPlayer.nightButton.onclick = playVideo("IfA7ZeIZv78")
       })
       afternoonButton.addEventListener("click", () => {
          pageBackground.classList.add("sad-longing-afternoon")
+         vidPlayer.nightButton.onclick = playVideo("fB9gMVtDFKs")
       })
       nightButton.addEventListener("click", () => {
          pageBackground.classList.add("sad-longing-night")
-         // playVideo("H4vQqQ__5SI")
+         vidPlayer.nightButton.onclick = playVideo("TGQ6LIB8Z6E")
       })
    })
 }
@@ -75,13 +80,15 @@ const calmContemplativeBackground = () => {
    calmContemplativeButton.addEventListener("click", () => {
       morningButton.addEventListener("click", () => {
          pageBackground.classList.add("calm-contemplative-morning")
+         vidPlayer.nightButton.onclick = playVideo("toBbAcTzGPM")
       })
       afternoonButton.addEventListener("click", () => {
          pageBackground.classList.add("calm-contemplative-afternoon")
+         vidPlayer.nightButton.onclick = playVideo("YdHe4dTc4Dw")
       })
       nightButton.addEventListener("click", () => {
          pageBackground.classList.add("calm-contemplative-night")
-         // playVideo("H4vQqQ__5SI")
+         vidPlayer.nightButton.onclick = playVideo("ydQWGnMIpq0")
       })
    })
 }
