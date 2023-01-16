@@ -1,9 +1,19 @@
-/* body {
-   background-color: rgb(42, 42, 55);
-} */
+html {
+   background: linear-gradient(to right, #f8e4d3, #f5ebad, #f4f7d1, #ddf7d1, #d1f7e3, #d1f5f7, #d1dcf7, #e7d1f7); 
+   background-size: 1000% 1000%;
+   animation: AnimationName 120s ease infinite;
+}
 
 header {
    text-align: center;
+   font-size: x-large;
+   font-family:'Samarkan', sans-serif, Arial, Helvetica, sans-serif
+   ;
+}
+
+h2 {
+   font-family:'Samarkan', sans-serif, Arial, Helvetica, sans-serif;
+   font-style: italic;
 }
 
 .options-column {
@@ -28,6 +38,9 @@ header {
    width: 200px;
    font-size: 16px;
    margin: 20px;
+   border-radius: 12px;
+   border-width: 1px;
+   border-color: rgb(217, 216, 216);
 }
 
 .time-column {
@@ -45,6 +58,9 @@ header {
    width: 200px;
    font-size: 16px;
    margin: 20px;
+   border-radius: 12px;
+   border-width: 1px;
+   border-color: rgb(217, 216, 216);
 }
 
 /* CSS Background Styles */
@@ -115,8 +131,8 @@ header {
 }
 
 .happy-excited-night {
-   background: linear-gradient(270deg, #983402, #c46500, #ffc13b);
-   background-size: 1000% 100%;
+   background: linear-gradient(to bottom right, #983402, #c46500, #ffc13b);
+   background-size: 1000% 1000%;
    animation: AnimationName 45s ease infinite;
 }
 
