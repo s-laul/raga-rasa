@@ -26,6 +26,7 @@ h2 {
 .mood-column {
    text-align: center;
    justify-items: center;
+   padding: 40px
 }
 
 .mood-buttons-list {
@@ -46,6 +47,7 @@ h2 {
 .time-column {
    text-align: center;
    justify-items: center;
+   padding-top: 40px;
 }
 
 .time-buttons-list {
@@ -63,12 +65,16 @@ h2 {
    border-color: rgb(217, 216, 216);
 }
 
+#player {
+   padding-top: 40px;
+}
+
 /* CSS Background Styles */
 
 .happy-excited-morning {
-   background: linear-gradient(270deg, #f8e4d3, #f5ebad, #f4f7d1);
-   background-size: 1000% 100%;
-   animation: AnimationName 30s ease infinite;
+   background: linear-gradient(to right, #f2f4d9, #fff8cc, #f6f9ad, #fcdeb9, #fcd9ab, #f9e8b7);
+   background-size: 1000% 1000%;
+   animation: AnimationName 60s ease infinite;
 }
 @keyframes AnimationName {
    0%{background-position:0% 91%}

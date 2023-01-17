@@ -1,4 +1,5 @@
 
+// Page elements
 const pageBackground = document.querySelector("html")
 const vidPlayer = document.getElementById("player")
 
@@ -161,7 +162,8 @@ const night = () => {
          alert("Your raga is: Raga Malkauns");
          pageBackground.classList.add("calm-contemplative-night")
          vidPlayer.nightButton.onclick = playVideo("ydQWGnMIpq0")
+      });
       })
-   })
-}
+   }
 night()
+
