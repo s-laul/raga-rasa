@@ -2,9 +2,13 @@
 
 This project uses basic HTML, CSS, and JavaScript in order to match a user's mood and time of day with visual and aural stimuli. 
 
-The visual element utilizes curated gradients based on color theory to match a user's inputs through a dynamic CSS Gradient Animator (Source: <a href="https://www.gradient-animator.com/" target="_blank">Ian Forrest</a>).
+The visual element utilizes curated gradients based on color theory to match a user's inputs through a dynamic CSS Gradient Animator (Inspiration: <a href="https://www.gradient-animator.com/" target="_blank">Ian Forrest</a>).
 
-The aural element utilizes individually-selected <a href="https://en.wikipedia.org/wiki/Raga" target="_blank">_ragas_</a> (Sanksrit for 'color'), or Indian classical music frameworks, deliberately composed to invoke, passify, and accentuate a listener's <a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2015.00513/full#:~:text=The%20ragas%20with%20emotion%20labels,Todi%2C%20Basant%20Mukhari%2C%20Lalit."> mood</a> (Sanskrit <a href="https://en.wikipedia.org/wiki/Rasa_(aesthetics)">_rasa_</a>) based on time of day (Sanksrit <a href="https://en.wikipedia.org/wiki/Samayā">_samayā_</a>). The audio itself is retrieved using the <a href="https://developers.google.com/youtube/iframe_api_reference" target="_blank"> YouTube IFrame Player API</a>.
+The aural element utilizes individually-selected <a href="https://en.wikipedia.org/wiki/Raga" target="_blank">_ragas_</a> (Sanksrit for 'color'), or Indian classical music frameworks, deliberately composed to invoke, passify, and accentuate a listener's <a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2015.00513/full#:~:text=The%20ragas%20with%20emotion%20labels,Todi%2C%20Basant%20Mukhari%2C%20Lalit."> mood</a> (Sanskrit <a href="https://en.wikipedia.org/wiki/Rasa_(aesthetics)">_rasa_</a>) based on time of day (Sanksrit <a href="https://en.wikipedia.org/wiki/Samayā">_samayā_</a>). The audio itself is retrieved using the <a href="https://developers.google.com/youtube/iframe_api_reference" target="_blank"> YouTube IFrame Player API</a>. 
+
+Some challenges I faced were that the SoundCloud API I initially intended to use no longer was providing API keys for external projects. This was something that was not immediately clear and was only apparent after going through all of the documentation, which kept linking back to a create project page. I tried several other APIs, such as Napster, but they would not allow me to play a clip of more than 30 seconds. I eventually decided on YouTube as it allowed me to call full videos for their audio. My stretch goals were to also utilize the Wikipedia API in order to provide the user information about the _raga_ they were listening to. I was successful in connecting the API and creating a modal, but did not have time to create proper styling, and thus omitted it for my final version. This is something I will try to revisit.
+
+<a href="https://mellifluous-valkyrie-edaa35.netlify.app/">Website link</a>
 
 **<h2>_Ragas_ selected:</h2>**
 
