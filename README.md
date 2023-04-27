@@ -1,5 +1,7 @@
 # Raga-Rasa
 
+<a href="https://raga-rasa.netlify.app/">Project Link</a>
+
 This project uses basic HTML, CSS, and JavaScript in order to match a user's mood and time of day with visual and aural stimuli. 
 
 The visual element utilizes curated gradients based on color theory to match a user's inputs through a dynamic CSS Gradient Animator (Inspiration: <a href="https://www.gradient-animator.com/" target="_blank">Ian Forrest</a>).
